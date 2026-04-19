@@ -1,16 +1,49 @@
-title: "Your Name"
-description: "Your site description"
+title: "Aurelien Pierce Ghiglino"
+description: "Research in generative design, scientific ML, and lunar resource intelligence"
+url: "https://aurelienghi.github.io"
+baseurl: ""
+
 theme: null
 remote_theme: "mmistakes/minimal-mistakes"
+
+markdown: kramdown
 
 plugins:
   - jekyll-include-cache
 
-markdown: kramdown
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+
+# Author profile
+author:
+  name: "Aurelien Pierce Ghiglino"
+  bio: "Stanford PhD candidate in Aero/Astro, doing generative design & scientific ML for aircraft design"
+  avatar: "/assets/images/profile.jpg"
+  location: "Stanford, CA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/aurelienghi"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/ghiglino"
 
 # Minimal Mistakes settings
-minimal_mistakes_skin: "default"   # or "dark", "air", "contrast", etc.
+minimal_mistakes_skin: "default"
 
-# Site URL
-url: "https://aurelien.github.io"
-baseurl: ""
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
