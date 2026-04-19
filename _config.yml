@@ -1,0 +1,16 @@
+title: "Your Name"
+description: "Your site description"
+theme: null
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+
+# Minimal Mistakes settings
+minimal_mistakes_skin: "default"   # or "dark", "air", "contrast", etc.
+
+# Site URL
+url: "https://aurelien.github.io"
+baseurl: ""
